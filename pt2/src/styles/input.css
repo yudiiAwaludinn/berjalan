@@ -1,0 +1,13 @@
+body {
+    background-color: #324154;
+    padding: 40px 112px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    background-color: #597298;
+    border-radius: 10px;
+    display: flex;
+}
