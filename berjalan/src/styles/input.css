@@ -1,0 +1,110 @@
+body {
+  background-color: #324154;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #597298;
+  border-radius: 8px;
+  display: flex;
+  width: 84.4%;
+  height: 89%;
+  margin: 32px auto;
+}
+
+.heading {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-family: monospace;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-right: 10%;
+}
+
+.heading hr {
+  border-radius: 50px solid;
+  width: 66%;
+}
+
+.menu {
+  width: 83.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-family: monospace;
+  padding: 10px 10px;
+  /* margin: 2%; */
+  vertical-align: middle;
+}
+
+.menu hr {
+  border-width: 2px;
+  width: 100%;
+}
+
+.language {
+  font-size: larger;
+  line-height: 40px;
+  padding-left: 60%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  justify-content: end;
+  font-weight: 300;
+}
+
+.cancel a {
+  color: rgb(249, 115, 115);
+  font-weight: 300;
+}
+
+input {
+  margin: 1rem; /* m-5 */
+  width: 70%; /* w-5/12 */
+  color: black; /* text-black */
+  text-align: center; /* text-center */
+  border-radius: 0.5rem; /* rounded-lg */
+  padding: 1rem; /* py-1 */
+  font-size: 17px;
+}
+
+.pin {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pin a {
+    color:  rgb(249, 115, 115);
+    font-size: 20px;
+}
+
+button {
+    color: greenyellow;
+    font-size: 20px;
+    background-color: #597298;
+    border: none;
+}
+
+img {
+  border-radius: 0.5rem;
+  width: 70%;
+  margin-top: 25%;
+  margin-left: 10%;
+}

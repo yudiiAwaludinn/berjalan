@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(51 65 85);
+    display: flex;
+    justify-content: center;
+    height: 97vh;
+  }
+  
+  .container {
+    background-color: #597298;
+    width: 84.4%;
+    height: 89%;
+    border-radius: 8px;
+    margin: 32px auto;
+    display: flex;
+  }
+  
+  .menu {
+    width: 65.66%;
+    /* background-color: antiquewhite; */
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 44px;
+    font-family: monospace; /* set font-family to monospace */
+  }
+  
+  .title {
+    font-family: monospace; /* set font-family to monospace */
+    font-size: 28pt; /* 36px */
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-bottom: 48px;
+    width: 70%;
+  }
+  
+  .container-nominal {
+    display: flex;
+    /* background-color: aqua; */
+  }
+  
+  .wrap-button {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0px;
+    /* background-color: blue; */
+    margin-right: 80px;
+  }
+  
+  .wrap-button div button {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-size: larger;
+    width: 100%;
+    gap: 5px;
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+    font-family: monospace;
+  }
+  
+  .container-nominal-lain a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1.875rem; /* 30px */
+    line-height: 5px;
+  }
+  
+  .container-nominal-lain a div {
+    text-align: left;
+    margin-left: 5px;
+  }
+  
+  .wrap-button2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0px;
+    /* background-color: blue; */
+    justify-content: end;
+  }
+  
+  .wrap-button2 div button {
+    background-color: transparent;
+    /* background-color: red; */
+    text-align: right;
+    width: 100%;
+    border: 0px;
+    color: white;
+    font-size: larger;
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+    font-family: monospace;
+  }
+  
+  .x .btn-transaksi-lain {
+    display: flex;
+    margin-top: -17px;
+    /* background-color: red; */
+  }
+  
+  .btn-transaksi-lain:hover {
+    cursor: pointer;
+  }
+  
+  .btn-transaksi-lain div {
+    text-align: right;
+    line-height: 5px;
+    margin-right: 16px;
+    margin-top: 17px;
+    /* background-color: #185dc4; */
+  }
+  
+  .container-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 43%;
+  }
+  
+  .container-img img {
+    border-radius: 8px;
+    width: 90%;
+  }
